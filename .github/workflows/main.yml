@@ -40,7 +40,7 @@ jobs:
       - name: commit the change
         run: |
           git config user.name "Ur Mom"
-          git config user.email "urmom@urmom.com"
+          git config user.email "urdad@urmom.com"
           git add README.md
           git commit -m "Updated README."
           git push
