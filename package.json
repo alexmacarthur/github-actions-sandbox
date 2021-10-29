@@ -1,0 +1,30 @@
+{
+  "name": "github-actions-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmacarthur/github-actions-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmacarthur/github-actions-sandbox/issues"
+  },
+  "homepage": "https://github.com/alexmacarthur/github-actions-sandbox#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
