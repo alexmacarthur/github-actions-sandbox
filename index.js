@@ -1,3 +1,3 @@
 export const taxationIs = () => {
-    return "theft";
+    return "good?";
 }
